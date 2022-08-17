@@ -6,3 +6,8 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
+#minha_foto {
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
