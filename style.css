@@ -1,69 +1,68 @@
 * {
- margin: 0;
+  margin: 0;
 }
 
 body {
- background-color: rgb(253, 251, 251);
- font-family: 'Open Sans', sans-serif;
+  background-color: rgb(253, 251, 251);
+  font-family: 'Open Sans', sans-serif;
 }
 
 #cabecalho {
- position: fixed;
- width: 100%;
+  position: fixed;
+  width: 100%;
 }
 
 #cabecalho, #rodape {
- background-color: rgb(3, 59, 12);
- padding: 20px;
- color: white;
- text-align: center;
+  background-color: rgb(3, 59, 12);
+  padding: 20px;
+  color: white;
+  text-align: center;
 }
 
-#navegacao {
- display: inline-block;
- justify-items: center;
- list-style: none;
- border: 1px solid white;
- width: 80px;
- margin-left: 30px;
+.navegacao {
+  display: inline-block;
+  justify-items: center;
+  list-style: none;
+  border: 1px solid white;
+  width: 80px;
+  margin-left: 30px;
 }
 
 a {
- text-decoration: none;
- color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
- color: red;
+  color: red;
 }
 
 #titulo {
- font-weight: 600;
- font-size: 50px;
- line-height: auto;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: auto;
 }
 
 main {
- padding: 160px 20px 5px 20px;
- text-align: justify;
+  padding: 160px 20px 5px;
+  text-align: justify;
 }
 
 .posicao {
- display: flex;
+  display: flex;
 }
 
 .lado-esquerdo {
- width: 50%;
- padding-right: 20px;
+  width: 50%;
+  padding-right: 20px;
 }
 
 .lado-direito {
- width: 50%;
+  width: 50%;
 }
 
 #minha_foto {
- width: 200px;
- text-align: center;
- border: 1px solid black;
+  width: 200px;
+  border: 1px solid black;
 }
 
