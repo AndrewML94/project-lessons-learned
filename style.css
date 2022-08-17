@@ -5,11 +5,23 @@
 body {
     background-color: rgb(253, 251, 251);
     font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
+
+#cabecalho {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
 }
 
 #cabecalho, #rodape {
     background-color: #023031;
-    padding: 50px
+    padding: 30px;
+    color: white
+}
+
+#titulo {
+    font-weight: 600;
 }
 
 #minha_foto {
