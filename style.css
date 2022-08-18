@@ -25,10 +25,10 @@ body {
   list-style: none;
   border: 1px solid white;
   width: 80px;
-  margin-left: 30px;
 }
 
 a {
+  font-weight: bold;
   text-decoration: none;
   color: white;
 }
@@ -44,7 +44,7 @@ a:hover {
 }
 
 main {
-  padding: 160px 20px 5px;
+  padding: 136px 20px 5px;
   text-align: justify;
 }
 
@@ -52,17 +52,30 @@ main {
   display: flex;
 }
 
-.lado-esquerdo {
+.lado-esquerdo, .lado-direito {
   width: 50%;
-  padding-right: 20px;
+  margin: 10px;
+  padding-bottom: 20px;
 }
 
-.lado-direito {
-  width: 50%;
+section h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  align-items: center;
+  width: 100%;
 }
 
 #minha_foto {
-  width: 200px;
+  display: block;
+  margin: auto;
+  width: 20%;
   border: 1px solid black;
 }
 
+table {
+  border: 1px solid black;
+  margin: auto;
+}
