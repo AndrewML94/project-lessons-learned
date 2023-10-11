@@ -35,4 +35,4 @@ Todo o conteúdo e elementos presentes nos arquivos "index.html" e "style.css" f
 
 ## Demonstração de como ficou o projeto depois de pronto
 
-![página home da aplicação](image.png)
+![página home da aplicação](images/image.png)
